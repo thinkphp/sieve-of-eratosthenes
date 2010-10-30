@@ -1,7 +1,7 @@
 Number method: toEratosthenes {#Number: toEratosthenes}
 -----------------------------------------------------
 
-The method, using sieve of Eratosthenes, identifies all prime numbers up to a given number.
+The method, using sieve of Eratosthenes, identifies all prime numbers up to a given number n.
 
 
 ### Syntax:
