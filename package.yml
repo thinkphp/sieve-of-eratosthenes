@@ -1,6 +1,6 @@
 name: Number.toEratosthenes
 author: thinkphp
-current: v1.0	  
+current: v1.0
 category: Native  
 tags: [Eratosthenes, sieve, prime, numbers, native, number, primenumber]
 docs: http://github.com/thinkphp/sieve-of-eratosthenes/blob/master/Docs/Number.toEratosthenes.md 
