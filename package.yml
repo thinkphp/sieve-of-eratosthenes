@@ -4,4 +4,4 @@ current: v1.0
 category: Native  
 tags: [Eratosthenes, sieve, prime, numbers, native, number, primenumber]
 docs: http://github.com/thinkphp/sieve-of-eratosthenes/blob/master/Docs/Number.toEratosthenes.md 
-demo: http://thinkphp.ro/apps/js-hacks/Number.toEratosthene/Number.toEratosthenes.php 
+demo: http://thinkphp.ro/apps/js-hacks/Number.toEratosthenes/Number.toEratosthenes.php
