@@ -14,14 +14,14 @@ How to use
 
 First you must to include the JS files in the head of your HTML document.
 
-   #HTML
-   <script type="text/javascript" src="mootools.js"></script>
-   <script type="text/javascript" src="number.toEratosthenes.js"></script>
+    #HTML
+    <script type="text/javascript" src="mootools.js"></script>
+    <script type="text/javascript" src="number.toEratosthenes.js"></script>
 
 In your JavaScript code.
 
-   #js 
-   (function($){
+    #js 
+    (function($){
         window.addEvent('domready',function(){
             $('f').addEvent('submit', function(e){
                 if(e) {e.stop();}
@@ -38,12 +38,12 @@ In your JavaScript code.
              }); 
              $('f').fireEvent('submit');  
         });         
-   })(document.id);
+     })(document.id);
  
 In your HTML code.
 
-   #html
-   <form id="f" name="f">
-   <label for="n">N = </label><input type="text" id="n" value="100"/><input type="submit" value="go">
-   </form>  
-   <div id="primenumbers"></div>
+    #html
+    <form id="f" name="f">
+    <label for="n">N = </label><input type="text" id="n" value="100"/><input type="submit" value="go">
+    </form>  
+    <div id="primenumbers"></div>
