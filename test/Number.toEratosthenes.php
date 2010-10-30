@@ -53,7 +53,7 @@ if($_GET['n'] && isset($_GET['n'])) {
    <div id="bd" role="main">
 	<div class="yui-g">
          <form id="f" name="f">
-         <label for="n">N = </label><input type="text" id="n" value="<?php echo$n; ?>"/><input type="submit" value="go">
+           <label for="n">N = </label><input type="text" id="n" value="<?php echo$n; ?>"/><input type="submit" value="go">
          </form>  
          <div id="primenumber"></div>
 	</div>
