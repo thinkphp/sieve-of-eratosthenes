@@ -33,7 +33,7 @@ if($_GET['n'] && isset($_GET['n'])) {
                 var n = $('n').get('value').toInt(); 
                 if(!n) {return false;}
                    var vec = [];
-                       vec = (n).toEratosthene(); 
+                       vec = (n).toEratosthenes(); 
                    if(window.console){console.log(vec);} 
                    var s = ''; 
                        for(var i=0;i<vec.length;i++) {
@@ -53,12 +53,12 @@ if($_GET['n'] && isset($_GET['n'])) {
    <div id="bd" role="main">
 	<div class="yui-g">
          <form id="f" name="f">
-           <label for="n">N = </label><input type="text" id="n" value="<?php echo$n; ?>"/><input type="submit" value="go">
+         <label for="n">N = </label><input type="text" id="n" value="<?php echo$n; ?>"/><input type="submit" value="go">
          </form>  
          <div id="primenumber"></div>
 	</div>
 	</div>
-<div id="ft"><p>Created by @<a href="http://twitter.com/thinkphp">thinkphp</a> | download on <a href="#">forge</a> | Time spent: <?php echo microtime(true)-$oldtime;?></p></div>
+<div id="ft"><p>Created by @<a href="http://twitter.com/thinkphp">thinkphp</a> | You can download on <a href="http://mootools.net/forge/download/Number_toEratosthenes/v1.0">forge</a> | Time spent: <?php echo microtime(true)-$oldtime;?></p></div>
 </div>
 </body>
 </html>
