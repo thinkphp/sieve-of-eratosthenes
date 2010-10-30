@@ -1,3 +1,21 @@
+/*
+---
+description: The method, using sieve of Eratosthenes, identifies all prime numbers up to a given number n.
+
+authors:
+  - Adrian Statescu (http://thinkphp.ro)
+
+license:
+  - MIT-style license
+
+requires:
+  core/1.3:   '*'
+
+provides:
+  - Number.toEratosthenes
+...
+*/
+
 Number.implement({
        toEratosthenes: function() {
              //define an array to push the prime numbers.
