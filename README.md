@@ -28,7 +28,7 @@ In your JavaScript code.
                 var n = $('n').get('value').toInt(); 
                 if(!n) {return false;}
                    var vec = [];
-                       vec = (n).toEratosthene(); 
+                       vec = (n).toEratosthenes(); 
                    if(window.console){console.log(vec);} 
                    var s = ''; 
                        for(var i=0;i<vec.length;i++) {
